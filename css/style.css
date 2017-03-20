@@ -1,0 +1,49 @@
+body{
+  margin-left: 15%;
+  margin-right: 15%;
+  min-width: 250px;
+  text-align: center;
+}
+#title{
+  text-align: center;
+  font-size:calc(16px + 3vw);
+  font-weight: bold;
+}
+#description{
+   text-align: center;
+  font-size:calc(12px + 1.5vw);
+}
+#weather-description{
+  margin: 20px;
+   text-align: center;
+ font-size:calc(14px + 2vw);
+  font-weight: bold;
+}
+.forecast{
+  margin-top: 30px;
+}
+
+ul{
+ font-size:calc(12px + 1.5vw);
+  list-style-type: none;
+}
+#bold{
+  font-weight: bold;
+}
+#footer{  
+  margin-top: 20px;
+}
+.btn{
+  color: white;
+}
+.btn:hover{
+ padding: 5%;
+   color: white;
+}
+#F{
+  color:black;
+}
+.col-md-6{
+  padding-top: 5px;
+   padding-bottom: 5px;
+}
