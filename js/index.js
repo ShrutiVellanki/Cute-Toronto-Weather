@@ -1,6 +1,6 @@
 ﻿$(document).ready(function() {
   //This section gets the Json from the Toronto Weather API
-  $.getJSON("http://api.openweathermap.org/data/2.5/weather?&q=toronto&APPID=eee7fb5eaa989c06f93e82e5e1b6fa59&unit=metric", function(json) {
+  $.getJSON("https://api.openweathermap.org/data/2.5/weather?&q=toronto&APPID=eee7fb5eaa989c06f93e82e5e1b6fa59&unit=metric", function(json) {
     //the look according to temperature
     document.getElementById("temp").innerHTML = parseJsonTemp(json) + " °C";
     if (parseJsonTemp(json) > 10 && parseJsonTemp(json) < 27) {
