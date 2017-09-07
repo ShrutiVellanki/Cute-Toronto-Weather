@@ -1,3 +1,2 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/svellanki/pen/gmWdwY.
-
+Link to View: https://shrutivellanki.github.io/Toronto-Weather-App/. 
  
