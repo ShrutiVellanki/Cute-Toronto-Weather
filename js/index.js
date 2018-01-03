@@ -26,7 +26,7 @@
       document.getElementById("social-media-button2").style.backgroundColor = "#00ace6";
       document.getElementById("social-media-button3").style.backgroundColor = "#00ace6";
       document.getElementById("C").style.backgroundColor = "#00ace6";
-      document.getElementById("icon").src = "https://imgur.com/a/Ko8zB";
+      document.getElementById("icon").src = "https://i.imgur.com/yI8FhEM.png";
     }
     document.getElementById("mainWeather").innerHTML = parseJsonWeather(json);
     $("#F").click(toFarenheit);
