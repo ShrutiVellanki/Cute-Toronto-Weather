@@ -10,7 +10,7 @@
       document.getElementById("social-media-button2").style.backgroundColor = "#33cc33";
       document.getElementById("social-media-button3").style.backgroundColor = "#33cc33";
       document.getElementById("C").style.backgroundColor = "#33cc33";
-      document.getElementById("icon").src = "http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Cartoons-PNG/Bunny_PNG_Cartoon_Free_Clipart.png?m=1371420000";
+      document.getElementById("icon").src = "https://imgur.com/a/uoHcm";
     } else if (parseJsonTemp(json) >= 27) {
       document.getElementById("weather-description").innerHTML = "Heating up!";
       document.getElementById("body").style.backgroundColor = "#ff9999";
@@ -18,7 +18,7 @@
       document.getElementById("social-media-button2").style.backgroundColor = "#e60000";
       document.getElementById("social-media-button3").style.backgroundColor = "#e60000";
       document.getElementById("C").style.backgroundColor = "#e60000";
-      document.getElementById("icon").src = "http://genderselectiondiet.com/wp-content/uploads/red-pepper.png";
+      document.getElementById("icon").src = "https://imgur.com/a/Bqbes";
     } else {
       document.getElementById("weather-description").innerHTML = "It's chilly!";
       document.getElementById("body").style.backgroundColor = "#b3ecff";
@@ -26,7 +26,7 @@
       document.getElementById("social-media-button2").style.backgroundColor = "#00ace6";
       document.getElementById("social-media-button3").style.backgroundColor = "#00ace6";
       document.getElementById("C").style.backgroundColor = "#00ace6";
-      document.getElementById("icon").src = "https://img.clipartfest.com/b9e5f95f7c9a6325fd49aaf334b4d3bb_animated-snowman-clipart-tiny-clipart-snowman-gif_2000-2282.gif";
+      document.getElementById("icon").src = "https://imgur.com/a/Ko8zB";
     }
     document.getElementById("mainWeather").innerHTML = parseJsonWeather(json);
     $("#F").click(toFarenheit);
