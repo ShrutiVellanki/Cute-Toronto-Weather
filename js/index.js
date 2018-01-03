@@ -10,7 +10,7 @@
       document.getElementById("social-media-button2").style.backgroundColor = "#33cc33";
       document.getElementById("social-media-button3").style.backgroundColor = "#33cc33";
       document.getElementById("C").style.backgroundColor = "#33cc33";
-      document.getElementById("icon").src = "https://imgur.com/a/uoHcm";
+      document.getElementById("icon").src = "https://i.imgur.com/6v8c0kv.png";
     } else if (parseJsonTemp(json) >= 27) {
       document.getElementById("weather-description").innerHTML = "Heating up!";
       document.getElementById("body").style.backgroundColor = "#ff9999";
@@ -18,7 +18,7 @@
       document.getElementById("social-media-button2").style.backgroundColor = "#e60000";
       document.getElementById("social-media-button3").style.backgroundColor = "#e60000";
       document.getElementById("C").style.backgroundColor = "#e60000";
-      document.getElementById("icon").src = "https://imgur.com/a/Bqbes";
+      document.getElementById("icon").src = "https://i.imgur.com/HcB9Qd2.png";
     } else {
       document.getElementById("weather-description").innerHTML = "It's chilly!";
       document.getElementById("body").style.backgroundColor = "#b3ecff";
